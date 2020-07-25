@@ -16,8 +16,7 @@ for key in data:
         count.append(1)
         score.append(key["score"])
 for i in range(0,len(cases)):
-    score[i]=score[i]/count[i]
-    users[cases[i]]=score[i]
+    users[cases[i]]=score[i]/count[i]
 filename = 'average.json'
 with open(filename, 'w', encoding='utf-8') as file_obj:
     json.dump(users, file_obj, ensure_ascii=False, indent=4)
