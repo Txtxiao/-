@@ -1,3 +1,4 @@
+#各分数段占比饼状图
 import json
 import numpy as np
 import matplotlib.pyplot as plt

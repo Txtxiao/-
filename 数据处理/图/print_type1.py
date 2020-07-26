@@ -1,3 +1,4 @@
+#某学生各类型题目平均分对比雷达图
 import  json
 import matplotlib
 import matplotlib.pyplot as plt

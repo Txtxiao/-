@@ -1,3 +1,4 @@
+#类型题目平均分比较雷达图
 import json
 import numpy as np
 import matplotlib.pyplot as plt

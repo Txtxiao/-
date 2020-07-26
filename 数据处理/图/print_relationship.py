@@ -1,3 +1,4 @@
+#个人分数与该题均分对比折线图
 import matplotlib.pyplot as plt
 import json
 from pylab import *                                 #支持中文
