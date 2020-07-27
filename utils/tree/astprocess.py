@@ -8,6 +8,15 @@ def trans_code_into_tree(file):
     return r_node
 
 
+# 计算树的高度(最多剪枝次数)
+def cal_node_height(node):
+    if is_empty(node):
+        return 0
+    if is_leaf(node):
+        return 1
+    return 1 + max([cal_node_height(x) for x in node.body])
+
+
 # 剪枝
 def cut_leaves(node):
     cp_node = copy.deepcopy(node)
@@ -50,7 +59,7 @@ def node_hash(node):
 
 def hash_self(node):
     hash_value = hash_method(str(type(node)), 10)
-    #print(hash_value)
+    # print(hash_value)
     return hash_value
 
 
@@ -70,7 +79,7 @@ def hash_leaf(node):
 
     """
     hash_value = hash_method(str(type(node)), 10)
-    #print(hash_value)
+    # print(hash_value)
     return hash_value
 
 
@@ -85,12 +94,12 @@ def hash_method(s, length):
 
 
 def is_leaf(node):
-    if  not hasattr(node, 'body'):
+    if not hasattr(node, 'body'):
         return True
-    flag=True
+    flag = True
     for n in node.body:
         if not is_empty(n):
-            flag=False
+            flag = False
     return flag
 
 
