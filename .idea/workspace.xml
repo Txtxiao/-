@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5568f72-2890-4ec6-9aec-c22c98bf5d12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/code/main_cp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/code/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/code/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/code/test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/download.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/tree/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/tree/astprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/tree/postprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/tree/preprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/tree/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/-.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/-.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/code/test4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/json/sample.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/json/test_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/工具/ast1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/工具/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/工具/transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/transform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/average.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/average.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/average.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/average.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/average_class.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/average_class.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/average_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/average_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/average_score.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/average_score.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/average_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/average_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/result.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/score.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/score.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/type_average.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/type_average.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/type_average.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/type_average.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/图/print_average.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/图/print_average.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/图/print_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/图/print_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/图/print_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/图/print_date.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/图/print_habit.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/图/print_habit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/图/print_relationship.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/图/print_relationship.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理/图/print_type1.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataprocess/图/print_type1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/tree/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tree/preprocess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,45 +13,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1595850216424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils/tree" />
     <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1595846073767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils/tree" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/tree/astprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/code/test3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="11" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/code/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/code/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -102,20 +36,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/tree/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="57">
+              <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/tree/postprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/tree/postprocess.py">
+        <entry file="file://$PROJECT_DIR$/utils/tree/astprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="1114">
+              <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +89,29 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/tree/preprocess.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/code/test5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/code/test4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -201,6 +169,8 @@
         <option value="$PROJECT_DIR$/utils/tree/astprocess.py" />
         <option value="$PROJECT_DIR$/data/code/main_cp.py" />
         <option value="$PROJECT_DIR$/utils/tree/test.py" />
+        <option value="$PROJECT_DIR$/data/code/test4.py" />
+        <option value="$PROJECT_DIR$/utils/tree/preprocess.py" />
       </list>
     </option>
   </component>
@@ -215,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,6 +206,12 @@
             <path>
               <item name="数据科学" type="b2602c69:ProjectViewProjectNode" />
               <item name="数据科学" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="数据科学" type="b2602c69:ProjectViewProjectNode" />
+              <item name="数据科学" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,6 +224,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,7 +256,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.preprocess">
+    <configuration name="preprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils/tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/tree/preprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="print_date" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,28 +293,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理/print_date.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="print_habit" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据处理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据处理/print_habit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.preprocess" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.print_relationship (1)" />
         <item itemvalue="Python.print_relationship" />
         <item itemvalue="Python.print_date" />
-        <item itemvalue="Python.print_habit" />
       </list>
     </recent_temporary>
   </component>
@@ -416,22 +392,24 @@
       <workItem from="1595821071394" duration="1763000" />
       <workItem from="1595822851823" duration="1548000" />
       <workItem from="1595844333392" duration="1802000" />
+      <workItem from="1595847315283" duration="1793000" />
+      <workItem from="1595849131004" duration="1206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8551000" />
+    <option name="totallyTimeSpent" value="11550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1487" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1487" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18054584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18544437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32841823" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.63538873" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.63538873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39812332" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -678,23 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/tree/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/tree/postprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/code/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/code/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -716,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/transform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -733,9 +687,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/transform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/code/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/code/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/tree/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/code/test5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/tree/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/tree/astprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
+        <state relative-caret-position="1114">
           <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -743,10 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/tree/test.py">
+    <entry file="file://$PROJECT_DIR$/utils/tree/postprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="76">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
