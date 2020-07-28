@@ -5,7 +5,26 @@ from utils.tree.astprocess import *
 
 # 抽象语法树信息摘要
 def mk_summary(r_node):
-    pass
+    # 语法树信息
+    # # 高度
+    height = cal_node_height(r_node)
+    # # 节点数量
+    num = cal_nonempty_node_num(r_node)
+    # # 每层节点数量
+    level = cal_level_node_num(r_node)
+    # # 根据节点数量/层高比例给出代码组织风格的评分(这里假设树高越低代码风格越好)
+    rate = 0
+    for i in range(1, height):
+        s = level[i] / num
+        rate += (height - i) * 10 * level[i]
+
+    # # 面向对象的检测(类定义的行数)
+    lines = 0
+    for n in r_node.body:
+        if isinstance(n, ast.ClassDef):
+            lines += n.end_lineno - n.lineno + 1
+
+    return [height, num, rate/num, lines]
 
 
 # 计算语法树相似度

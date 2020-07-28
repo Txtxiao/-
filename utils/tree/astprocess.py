@@ -30,6 +30,34 @@ def cal_nonempty_node_num(node):
         return s
 
 
+# 计算每层节点个数
+def cal_level_node_num(node):
+    if is_empty(node):
+        return []
+    if is_leaf(node):
+        return [1]
+    else:
+        li = [1]
+        nodes = [node]
+        while True:
+            s = 0
+            new_nodes = []
+            flag=True
+            for n in nodes:
+                if not is_leaf(n):
+                    for sub_n in n.body:
+                        if not is_empty(sub_n):
+                            s += 1
+                            flag=False
+                            new_nodes.append(sub_n)
+            if flag:
+                break
+            nodes = copy.deepcopy(new_nodes)
+            li.append(s)
+        return li
+
+
+
 # 剪枝
 def cut_leaves(node):
     cp_node = copy.deepcopy(node)
