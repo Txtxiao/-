@@ -17,6 +17,19 @@ def cal_node_height(node):
     return 1 + max([cal_node_height(x) for x in node.body])
 
 
+# 计算非空节点个数
+def cal_nonempty_node_num(node):
+    if is_empty(node):
+        return 0
+    if is_leaf(node):
+        return 1
+    else:
+        s = 1
+        for sub_node in node.body:
+            s += cal_nonempty_node_num(sub_node)
+        return s
+
+
 # 剪枝
 def cut_leaves(node):
     cp_node = copy.deepcopy(node)
