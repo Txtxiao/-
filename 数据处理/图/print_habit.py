@@ -5,8 +5,9 @@ def time_transform(timeStamp):
     timeStamp = timeStamp / 1000
     timeArray = time.localtime(timeStamp)
     otherStyleTime = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
-    detime=otherStyleTime[otherStyleTime.find(" ")+1:otherStyleTime.rfind(":")].replace(":",".")
-    return float(detime)
+    detime=otherStyleTime[otherStyleTime.find(" ")+1:otherStyleTime.rfind(":")]
+    retime=detime[0:detime.find(":")]+str(int(detime[detime.find(":")+1:len(detime)])/60*1)[1:]
+    return float(retime)
 res = open('test_data.json', encoding='utf-8').read()
 data = json.loads(res)
 score=[]
