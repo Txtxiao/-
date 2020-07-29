@@ -3,7 +3,7 @@ questNum = int(input())
 for quest in range(questNum):
     ns = input().split(' ')
     n = int(ns[0])
-    start = ns[1];
+    start = ns[1]
     s = input().split(' ')
 
     graph = []
@@ -15,14 +15,13 @@ for quest in range(questNum):
                 if not (start1, s[j - 1]) in graph:
                     graph.append((start1, s[j - 1]))
 
-
     next = start
-    while len(graph) > 0: 
+    while len(graph) > 0:
         for i in range(len(graph)):
             if graph[i][0] == next:
-                print(start, end=' ')
+                print(graph[i][0], end=' ')
                 next = graph[i][1]
                 del graph[i]
-            
+                break
 
     print()
