@@ -10,7 +10,8 @@ for key in data:
     for case in cases:
         Mycase={"case_id":case["case_id"],
                 "score":case["final_score"],
-                "case_type":case["case_type"]}
+                "case_type":case["case_type"],
+                "commit_num":len(case["upload_records"])}
         users.append(Mycase)
 filename = 'score.json'
 with open(filename, 'w', encoding='utf-8') as file_obj:
